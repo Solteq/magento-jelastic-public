@@ -13,6 +13,6 @@ If you used custom domain name for the Magento you need to set the public IP add
 ## PHPMyAdmin
 PHPMyAdmin is installed with the database cluster master node. 
 * **Admin panel URL:** https://node${nodes.sqldb.master.id}-${env.domain} 
-* **Username:** ${globals.DB_USER} 
-* **Password:** ${globals.DB_PASS} 
+* **Username:** ${globals.MYSQL_ROOT_USERNAME} 
+* **Password:** ${globals.MYSQL_ROOT_PASSWORD}
 
